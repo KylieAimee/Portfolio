@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kylie Aimee Portfolio</title>
+
+<!---CSS for social icons-->
+    <style>
+        .social-icon {
+            color: black;
+            transition: color 0.2s;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        .social-icon:hover {
+            color: rgb(218, 170, 194);
+        }
+    </style>
 </head> 
    
 <body>
@@ -22,20 +36,24 @@
         </nav>
     </header>
         Feel free to check out my socials
-    <nav>
-        <!-- Add icon library -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <a href="#" class="fa fa-Instagram"></a>
-        <a href="#" class="fa fa-LinkedIn"></a>
-    </nav>
     
     <nav>
-        <img alt="Static Badge" src="https://img.shields.io/badge/-black?logo=Instagram&logoColor=white">
-        <img alt="Static Badge" src="https://img.shields.io/badge/-black?logo=pinterest&logoColor=white">
-        <img href="Static Badge" alt="Static Badge" src="https://img.shields.io/badge/-black?logo=LinkedIn&logoColor=white" >
-        <img alt="Static Badge" src="https://img.shields.io/badge/-black?logo=Github&logoColor=white">
+       <a class="social-icon" href="http://www.linkedin.com/in/kylie-farrell-809bb230b" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+
+        <a class="social-icon" href="http://GitHub.com/KylieAimee" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+            </a>
+        
+        <a class="social-icon" href="http://instagram.com/k.aimee.designs" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+
     </nav>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
