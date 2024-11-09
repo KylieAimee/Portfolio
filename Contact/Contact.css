@@ -1,0 +1,29 @@
+header {
+    text-align: center;
+    background-color: white;
+    color: rgb(143, 168, 191);
+    padding: 20px 20px;
+}
+
+body {
+    color: rgb(143, 168, 191);
+}
+
+nav ul {
+    text-align: center;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-left: 0;
+}
+
+nav a {
+    border-radius: 8px;
+    color: rgb(143, 168, 191);
+    padding: 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(229, 224, 234);
+}
