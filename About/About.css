@@ -4,12 +4,12 @@ header {
     text-align: center;
     font-family: "Roboto Slab", serif;
     background-color: white;
-    color: rgb(143, 168, 191);
+    color: rgb(129, 148, 167);
     padding: 20px 20px;
 }
 
 body {
-    color: rgb(143, 168, 191);
+    color: rgb(129, 148, 167);
     font-family: "Roboto Slab", serif;
     
 }
@@ -24,7 +24,7 @@ nav ul {
 
 nav a {
     border-radius: 8px;
-    color: rgb(143, 168, 191);
+    color: rgb(129, 148, 167);
     padding: 1em;
     text-decoration: none;
 }
