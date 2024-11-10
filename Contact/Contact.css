@@ -8,15 +8,18 @@ header {
     padding: 20px 20px;
 }
 
+
 body {
     color: rgb(129, 148, 167);
 }
+
+
 
 nav ul {
     text-align: center;
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: space-around;
     padding-left: 0;
 }
 

@@ -8,9 +8,15 @@ header {
     padding: 20px 20px;
 }
 
+h3 {
+    color: rgb(147, 125, 166);
+}
+
 body {
     color: rgb(129, 148, 167);
     font-family: "Roboto Slab", serif;
+    justify-content: space-between;
+    padding: 5em;
     
 }
 
@@ -18,7 +24,7 @@ nav ul {
     text-align: center;
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: space-around;
     padding-left: 0;
 }
 
@@ -35,3 +41,4 @@ section {
 
 nav a:hover {
     background-color: rgb(229, 224, 234);
+}
