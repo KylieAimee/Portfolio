@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto+Slab:wght@100..900&display=swap');
+
 header {
     text-align: center;
+    font-family: "Roboto Slab", serif;
     background-color: white;
     color: rgb(143, 168, 191);
     padding: 20px 20px;
@@ -7,6 +10,8 @@ header {
 
 body {
     color: rgb(143, 168, 191);
+    font-family: "Roboto Slab", serif;
+    
 }
 
 nav ul {
@@ -22,6 +27,10 @@ nav a {
     color: rgb(143, 168, 191);
     padding: 1em;
     text-decoration: none;
+}
+
+section {
+    text-align: center;
 }
 
 nav a:hover {

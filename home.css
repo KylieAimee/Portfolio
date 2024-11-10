@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto+Slab:wght@100..900&display=swap');
+
 header {
     text-align: center;
     background-color: white;
@@ -7,6 +9,7 @@ header {
 
 body {
     color: rgb(143, 168, 191);
+    font-family: "Roboto Slab", serif;
 }
 
 nav ul {
