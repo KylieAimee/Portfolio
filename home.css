@@ -2,7 +2,6 @@
 
 header {
     text-align: center;
-    background-color: white;
     color: rgb(129, 148, 167);
     padding: 20px 20px;
 }
@@ -13,11 +12,9 @@ body {
 }
 
 nav ul {
-    text-align: center;
     display: flex;
     list-style: none;
-    justify-content: center;
-    padding-left: 0;
+    justify-content: space-around;
 }
 
 nav a {
