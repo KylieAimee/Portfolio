@@ -39,6 +39,10 @@ section {
     text-align: center;
 }
 
+li.odd {
+    color: rgb(27, 73, 118);
+}
+
 nav a:hover {
     background-color: rgb(229, 224, 234);
 }
