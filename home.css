@@ -31,9 +31,17 @@ nav a:hover {
     
 }
 
+.row {
+    display: flex;
+  }
+  
+  .column {
+    padding: 0px;
+  }
+
 .container {
     position: relative;
-    width: 50%;
+    width: 70%;
   }
   
   .image {
