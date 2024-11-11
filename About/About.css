@@ -3,7 +3,7 @@
 header {
     text-align: center;
     font-family: "Roboto Slab", serif;
-    background-color: white;
+    background-color: rgb(255, 234, 209);
     color: rgb(129, 148, 167);
     padding: 20px 20px;
 }
@@ -16,7 +16,7 @@ body {
     color: rgb(129, 148, 167);
     font-family: "Roboto Slab", serif;
     justify-content: space-between;
-    padding: 5em;
+
     
 }
 
