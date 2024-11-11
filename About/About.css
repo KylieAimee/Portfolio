@@ -52,3 +52,10 @@ li.odd {
 nav a:hover {
     background-color: rgb(229, 224, 234);
 }
+
+/* for the table border */
+table, th, td {
+    border: 1px solid;
+    width: 50%;
+    text-align: center;
+  }

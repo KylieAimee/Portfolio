@@ -41,9 +41,6 @@ nav a:hover {
     display: flex;
   }
   
-  .column {
-    padding: 0px;
-  }
 
 .container {
     position: relative;
@@ -83,3 +80,4 @@ nav a:hover {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
+
