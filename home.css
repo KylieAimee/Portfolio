@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto+Slab:wght@100..900&display=swap');
 
+/* top of webpage */
 header {
     text-align: center;
     font-family: "Roboto Slab", serif;
@@ -8,17 +9,20 @@ header {
     padding: 20px 20px;
 }
 
+/* body of webpage */
 body {
     color: rgb(114, 135, 172);
     font-family: "Roboto Slab", serif;
 }
 
+/* link list */
 nav ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
 }
 
+/* hidding link colour and underscore */
 nav a {
     border-radius: 8px;
     color: rgb(129, 148, 167);
@@ -26,11 +30,13 @@ nav a {
     text-decoration: none;
 }
 
+/* hover button colour */
 nav a:hover {
     background-color: rgb(229, 224, 234);
     
 }
 
+/* image place */
 .row {
     display: flex;
   }
@@ -41,9 +47,10 @@ nav a:hover {
 
 .container {
     position: relative;
-    width: 70%;
+    width: 80%;
   }
   
+/* overlay on images */
   .image {
     display: block;
     width: 100%;
@@ -75,10 +82,4 @@ nav a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-  }
-
-  @media screen and (max-width: 500px) {
-    .column {
-      width: 100%;
-    }
   }

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto+Slab:wght@100..900&display=swap');
 
+/* Top of page */
 header {
     text-align: center;
     font-family: "Roboto Slab", serif;
@@ -8,12 +9,13 @@ header {
     padding: 20px 20px;
 }
 
-
+/* body webpage */
 body {
     color: rgb(129, 148, 167);
     background-color: white;
 }
 
+/* link list */
 nav ul {
     text-align: center;
     display: flex;
@@ -21,6 +23,7 @@ nav ul {
     justify-content: space-around;
 }
 
+/* hdding link colour and underscores */
 nav a {
     border-radius: 8px;
     color: rgb(129, 148, 167);
@@ -28,11 +31,13 @@ nav a {
     text-decoration: none;
 }
 
+/* body of webpage */
 section {
     text-align: center;
     font-family: "Roboto Slab", serif;
 }
 
+/* hover button colour */
 nav a:hover {
     background-color: rgb(229, 224, 234);
 }

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto+Slab:wght@100..900&display=swap');
 
+/* Top of the page */
 header {
     text-align: center;
     font-family: "Roboto Slab", serif;
@@ -8,18 +9,19 @@ header {
     padding: 20px 20px;
 }
 
+/* colour of the headings */
 h3 {
     color: rgb(147, 125, 166);
 }
 
+/* link font style and colour */
 body {
     color: rgb(129, 148, 167);
     font-family: "Roboto Slab", serif;
     justify-content: space-between;
-
-    
 }
 
+/* link ordering */
 nav ul {
     text-align: center;
     display: flex;
@@ -28,6 +30,7 @@ nav ul {
     padding-left: 0;
 }
 
+/* hiding default link colour and underscore */
 nav a {
     border-radius: 8px;
     color: rgb(129, 148, 167);
@@ -35,14 +38,17 @@ nav a {
     text-decoration: none;
 }
 
+/* centering body paragraph */
 section {
     text-align: center;
 }
 
+/* font folour for odd listing */
 li.odd {
     color: rgb(27, 73, 118);
 }
 
+/* hover button colour */
 nav a:hover {
     background-color: rgb(229, 224, 234);
 }
