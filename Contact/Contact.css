@@ -14,14 +14,11 @@ body {
     background-color: white;
 }
 
-
-
 nav ul {
     text-align: center;
     display: flex;
     list-style: none;
     justify-content: space-around;
-    padding-left: 0;
 }
 
 nav a {
@@ -29,6 +26,11 @@ nav a {
     color: rgb(129, 148, 167);
     padding: 1em;
     text-decoration: none;
+}
+
+section {
+    text-align: center;
+    font-family: "Roboto Slab", serif;
 }
 
 nav a:hover {
