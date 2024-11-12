@@ -38,6 +38,40 @@ nav a {
     text-decoration: none;
 }
 
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: #ffffff;
+    padding: 10px;
+    flex: 40%;
+  }
+  
+  .flex-item-right {
+    outline-style: double;
+    outline-width: 10px;
+    outline-color: rgb(255, 234, 209);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    flex: 50%;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 400px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
 /* centering body paragraph */
 section {
     text-align: center;
@@ -47,8 +81,6 @@ section {
 li.odd {
     color: rgb(27, 73, 118);
 }
-
-
 
 /* hover button colour */
 nav a:hover {
