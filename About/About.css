@@ -67,10 +67,12 @@ table, th, td {
 }
 
 .container {
-    width: 300px;
-    border: 10px solid rgb(255, 234, 209);
-    padding: 10px;
-    display: flex;
+    outline-style: dotted;
+    outline-width: 10px;
+    outline-color: rgb(255, 234, 209);
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 tools {
