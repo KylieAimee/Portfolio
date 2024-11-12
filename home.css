@@ -40,6 +40,11 @@ nav a:hover {
 .row {
     display: flex;
   }
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+}
   
 
 .container {
@@ -80,4 +85,10 @@ nav a:hover {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
+
+  footer {
+    text-align: center;
+    background-color: rgb(255, 234, 209);
+    font-size: x-small;
+}
 

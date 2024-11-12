@@ -23,7 +23,7 @@ nav ul {
     justify-content: space-around;
 }
 
-/* hdding link colour and underscores */
+/* hidding link colour and underscores */
 nav a {
     border-radius: 8px;
     color: rgb(129, 148, 167);
@@ -40,4 +40,9 @@ section {
 /* hover button colour */
 nav a:hover {
     background-color: rgb(229, 224, 234);
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(255, 234, 209);
 }
