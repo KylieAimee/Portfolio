@@ -16,3 +16,23 @@ else if (hour < 18) welcomeText = welcomeTypes[1];
 else welcomeText = welcomeTypes[2];
 
 greeting.innerHTML = welcomeText;
+
+
+
+//loops
+let initialElement = 1;
+let stopValue = 12;
+
+const orderedList = document.getElementById("numbers")
+
+for (let i = initialElement; i <= stopValue; i ++) {
+    const listItem = document.createElement("li");
+
+    if (i % 2 == 0) {
+        listItem.textContent = "Even";
+    } else if (i % 2 == 1) {
+        listItem.textContent = "Odd";
+    }
+
+    orderedList.appendChild(listItem);
+}
