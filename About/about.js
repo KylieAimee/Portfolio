@@ -3,7 +3,7 @@ const d = new Date();
 fyear.textContent = "(c) Kylie Farrell " + d.getFullYear();
 
 //need to fix
-const greeting = document.getElementById("Greetingheader") => {
+const greeting = document.getElementById("Greetingheader")
     if (d.getHours() <= 11) {
         console.log('Good Morning!');
     } else if (d.getHours() < 18 ) {
@@ -11,4 +11,3 @@ const greeting = document.getElementById("Greetingheader") => {
     } else if (d.getHours() < 22 ) {
         console.log('Good Afternoon!')
     }
-}
