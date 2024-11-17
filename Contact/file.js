@@ -4,7 +4,9 @@ const d = new Date();
 fyear.textContent = "(c) Kylie Farrell " + d.getFullYear();
 
 //needs fixing
+//alert button
+function showAlert() {
+    alert("Message me about my art or even to get to kno me more!");
+}
 
-  function myFunction() {
-    alert("Find out more about my art and comissions or to learn more aobut me!");
-  }
+//hover button
